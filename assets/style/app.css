@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,400&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 239, 239);
+}
+
+#app { 
+    margin: 70px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#app #app_head {
+    color: #5E5C61;
+} 
+
+#app #app_head #app_head_name {
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 24px;
+}
+
+#app #app_head #app_head_name #hero {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+	float: right;
+}
+
+#app #app_head #app_head_name #hero a {
+	color: #D67F3F;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+#app #app_head #app_head_name #hero a:hover {
+	color: #D67F3F;
+	font-weight: 600;
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
+#app #app_head #app_head_slg {
+    font-style: italic;
+	font-size: 14px;
+    font-weight: 400;
+	font-family: 'EB Garamond', sans-serif;  
+}
+
+#app #final_blog #final_blog_name {
+    font-weight: 500;
+	font-size: 23.4px;
+	font-family: 'Lato', sans-serif;
+}
+
+#app #final_blog #final_blog_content {
+    background-color: #5e5c61;
+    color: whitesmoke;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#app #final_blog #final_blog_content #blog_name #blog_head {
+    font-size: 40px;
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: 600;
+}
+
+#app #final_blog #final_blog_content #blog_name #blog_head a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#app #final_blog #final_blog_content #blog_name #blog_date {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+#app #final_blog #final_blog_content #blog_name #blog_text {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+#app #final_blog #final_blog_content #blog_name #blog_add_button {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+#app #final_blog #final_blog_content #blog_name #blog_add_button a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#app #blogs {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#app #blogs #blogs_head {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #0000008A;
+}
+
+#app #blogs #blog_name #blog_head {
+    font-size: 40px;
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: 600;
+}
+
+#app #blogs #blog_name #blog_head a {
+    text-decoration: none;
+    color: #3E3F3C;
+}
+
+#app #blogs #blog_name #blog_date {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #0000008A;
+}
+
+#app #blogs #blog_name #blog_text {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #3E3F3C;
+}
+
+#app #blogs #blog_name #blog_add_button {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+#app #blogs #blog_name #blog_add_button a {
+    color: #D67F3F;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#app hr {
+    max-width: 77%;
+}
+
+
+/* FOOT */
+
+#foot {
+	text-align: center;
+	color: #3E3F3C;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+}
+
+#foot a {
+	text-decoration: none;
+	color: #D67F3F;
+}
+
+#foot #social_link a {
+	text-decoration: none;
+	color: #0000008A;
+	font-size: 32px;
+}
+
+#slash {
+	color: lightgray; 
+}
+
+#foot #social_link a:hover {
+	transition: 0.5s;
+	color: #D67F3F; 
+}
+
+#search_console {
+	font-size: 20px;
+	width: 200px;
+	outline: none;
+	background-color: #ECECEC;
+	color: #D67F3F;
+	padding-left:17px;
+	border: 1px solid gray;
+	border-radius: 20px;
+	font-weight: 600;
+	font-family: 'EB Garamond', sans-serif
+}
+
+#app #blogs #blog_name #blog_text a {
+	color:#D67F3F;
+}
+
+#app #blogs #blog_name #blog_text #app_font_changer {
+	font-family: Arial;
+}
+
+#app #blogs #blog_name #blog_head #app_color_changer {
+	color: #D67F3F;
+}
+
+
+
+
